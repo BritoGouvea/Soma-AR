@@ -1,4 +1,12 @@
-body {
-    height: 100%;
-    width: 100%;
+model-viewer {
+    overflow-x: hidden;
+    height: 90vh;
+    width: 100vw;
+}
+
+#default-ar-button {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    transform-origin: bottom right;
 }
