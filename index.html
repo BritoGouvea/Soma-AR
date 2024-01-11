@@ -2,12 +2,14 @@
 <html>
 
 <head>
+    <!-- Import the component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body style="margin: 0; overflow: hidden;">
-    <a rel="ar" href="/assets/heart.usdz">
-        <img src="/assets/model-preview.jpeg">
-    </a>
+    <model-viewer src="assets/asset.glb" cameracontrols ar>
+
+    </model-viewer>
 </body>
 
 </html>
